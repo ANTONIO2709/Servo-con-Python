@@ -23,6 +23,7 @@ Después de ejecutar el programa, el servo girará de 0 grados a 180 grados, y l
 a 0 grados, circularmente.
 
 codigo:
+
 Se requiere un pulso de 50 Hz, a saber, un ciclo de 20 ms, para controlar Servo. En la función softPwmCreate (int pin, int
 initialValue, int pwmRange), la unidad del tercer parámetro pwmRange es 100US, a saber, 0,1 ms. Con el fin de obtener
 el PWM con el ciclo de 20ms, el pwmRange debe establecerse en 200. Así que en la subfunción de servoInit (), creamos
