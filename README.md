@@ -3,7 +3,8 @@
 
 Primero, vamos a aprender cómo hacer que el servo gire
 
-Servo
+Servo:
+
 Servo es un sistema de autocontrol, que consta de motor de CC, engranaje de reducción, sensor y circuito de control. Generalmente
 puede girar en el rango de 180 grados. Servo puede emitir un par más grande y es ampliamente utilizado en el modelo de avión,
 robot y así sucesivamente. Tiene tres líneas, incluyendo dos para línea de energía eléctrica positiva (2-VCC, rojo), negativa (3-
